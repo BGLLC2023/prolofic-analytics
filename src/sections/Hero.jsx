@@ -122,13 +122,6 @@ export default function Hero() {
             Get In Touch
           </a>
         </div>
-        <div className="hero-stats" ref={statsRef}>
-          <StatItem target={50} suffix="+" label="Projects" active={statsVisible} />
-          <div className="stat-divider" />
-          <StatItem target={100} suffix="%" label="Data Driven" active={statsVisible} />
-          <div className="stat-divider" />
-          <StatItem target={5} suffix="+" label="Years Exp." active={statsVisible} />
-        </div>
       </div>
       <div className="scroll-hint">
         <span>Scroll</span>

@@ -71,6 +71,12 @@
   backdrop-filter: blur(8px);
 }
 .stat { text-align: center; }
+.tool-logo {
+  width: 48px;
+  height: 48px;
+  display: block;
+  margin: 0 auto 6px;
+}
 .stat-num {
   display: block;
   font-family: var(--font-mono);
